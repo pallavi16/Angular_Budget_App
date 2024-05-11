@@ -15,7 +15,7 @@ phases:
   build:
     commands:
         - echo Build started 
-        - ng build
+        - ng build --${BUILD_ENV}
 artifacts:
     files:
         - '**/*'
